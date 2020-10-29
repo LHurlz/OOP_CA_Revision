@@ -36,7 +36,7 @@ public class TestCollegeApp {
             if(allDepartments[i]!=null && allDepartments[i].getName().equals("Computing")){
                 compSub=i;
             }
-            else if(allDepartments[i]!=null && allDepartments[i].getName().equals("Media")){
+            if(allDepartments[i]!=null && allDepartments[i].getName().equals("Media")){
                 mediaSub=i;
             }
         }
